@@ -1,4 +1,4 @@
-import { VNS_panel, EL_panel, Chart_panel} from './hp_panel.js';
+import { VNS_panel, EL_panel} from './hp_panel.js';
 import { MNav, Collapse_Btn } from './hp_mobileNav.js';
 import { init_card_display } from './hp_middle.js';
 import { VideoData_Card } from './video_dataset.js';
@@ -103,9 +103,16 @@ function openHomepage_ex() {
         success: function(res) {
             document.querySelector("main").innerHTML = res;
             Homepage_ex_loading();
+ 
         }
     });
+
+
+   
 }
+
+
+
 function openStudyMaterial() {
     // 页面呈现loading
     // document.querySelector("main").innerHTML = "";
@@ -182,6 +189,7 @@ function openAbout() {
 
 // 左侧导航顺序
 function Homepage_ex_loading() {
+    
     const mobile_nav_node = document.querySelector(".mobile-nav-scrollSpy");
     const sidebar_node = document.getElementById("sidebar-ex");
     const card_display_node = document.getElementById("card-display-ex");
@@ -198,7 +206,7 @@ function Homepage_ex_loading() {
 
     VNS_panel.appendTo(sidebar_node, vns_extraNode_html, vns_extraClass_toA_arr, vns_extraAttribute_toA, vns_method_to_btn_name);
     
-    Chart_panel.appendTo(sidebar_node, "", chart_extraClass_toA_arr, {});
+    // Chart_panel.appendTo(sidebar_node, "", chart_extraClass_toA_arr, {});
     EL_panel.appendTo(sidebar_node, "", el_extraClass_toA_arr, {});
 
     const collapse_btn = new Collapse_Btn('.mobile-nav-btn', '#sidebar-ex', '.mobile-nav-scrollSpy');
@@ -206,6 +214,23 @@ function Homepage_ex_loading() {
     init_card_display(card_display_node);
     searchBox_EventListener(card_display_node);
     modal_EventListener();
+
+    //这里我想通过找到名字为el-Pie-chart的div盒子，然后在这个盒子的后面加上h3标题Chart Types
+    console.log ('新增代码');
+
+    var chart_node2 = document.getElementsByClassName("sidebar-panel-group").item(1);
+    console.log(chart_node2);
+    var chart = chart_node2.getElementsByTagName("div");
+    console.log(chart);
+    var chart_node = document.getElementsByClassName("sidebar-btn filter-btn el-Pie-chart active").item(0);
+    console.log (chart_node);//这里的返回值是null 加载不出
+    var chart_node3 = chart_node.insertAdjacentHTML('afterend', `<div><h3 class="sidebar-panel-title">Chart Types</h3></div>`);
+    
+    console.log (chart_node3);
+    
+
+    
+    
 }
 
 /* homepage init related methods */
@@ -523,27 +548,4 @@ function StudyMaterial_loading() {
 
     // mouse_EventListener();
 }
-
-
-// StudyMaterial_Card.prototype._bindEvents = function ()  {
-//     let that = this;
-//     const this_card_node = this._deck_single_node;
-//     const card = this_card_node.querySelector(".card");
-//     const front_img= card.querySelector(".card-img-top");
-
-
-//     front_img.addEventListener(".mouseover", () => {
-//         front_img.querySelector(".preview").style.visibility = "none";
-//         $(front_img).find(".gifImg").fadeTo("fast", 0);
-//     });
-//     front_img.addEventListener(".mouseout", () => {
-//         front_img.querySelector(".preview").style.visibility = "block";
-//         $(front_img).find(".gifImg").fadeTo("fast", 1);
-//     });
-// }
-
-
-
-
-
 

@@ -1,7 +1,33 @@
 [
-{"VNS_id":0,"VNS_tag":"joy","VNS_color":"#f8e9af","VNS_desc":"Joy is a state when people feel cheerful and pleased.","VNS_num":9},
-{"VNS_id":1,"VNS_tag":"amusement","VNS_color":"#ea9081","VNS_desc":"Suspense uses retardation to build tension and anticipation. It is extensively used in film-making and is regarded as one of the primary features of cinematic storytelling.","VNS_num":9},
-{"VNS_id":2,"VNS_tag":"surprise","VNS_color":"#efbd9c","VNS_desc":"Comparison facilitates the explanation of similarities and differences by analyzing two or more datasets/data points. As a common means of presenting visualizations, comparison is also effective for data-driven storytelling.","VNS_num":15},
-{"VNS_id":3,"VNS_tag":"tenderness","VNS_color":"#c0c96f","VNS_desc":"Cohering is a visual narrative tactic that augments the continuity of a story by building animated transitions between individual parts. Cohering is a common strategy used in film-making to sew up discrete story pieces and create an intuitive viewing experience.","VNS_num":12},
-{"VNS_id":4,"VNS_tag":"excitement","VNS_color":"#f5c8c0","VNS_desc":"Ellipsis is used to compact the narratives of a story and deliver the appropriate amount of information to prevent overwhelming the audience. In narratology, subnarratable content, that is, something not worthy of being told as it is too obvious or not interesting, is often left out by the narrator.","VNS_num":15}
+{
+    "VNS_id":0,
+    "VNS_tag":"joy",
+    "VNS_color":"#f8e9af",
+    "VNS_desc":"Joy is a state when people feel cheerful and pleased.",
+    "VNS_num":9
+},
+{"VNS_id":1,
+    "VNS_tag":"amusement",
+    "VNS_color":"#ea9081",
+    "VNS_desc":"Suspense uses retardation to build tension and anticipation. It is extensively used in film-making and is regarded as one of the primary features of cinematic storytelling.",
+    "VNS_num":9
+},
+{"VNS_id":2,
+    "VNS_tag":"surprise",
+    "VNS_color":"#efbd9c",
+    "VNS_desc":"Comparison facilitates the explanation of similarities and differences by analyzing two or more datasets/data points. As a common means of presenting visualizations, comparison is also effective for data-driven storytelling.",
+    "VNS_num":15
+},
+{"VNS_id":3,
+    "VNS_tag":"tenderness",
+    "VNS_color":"#c0c96f",
+    "VNS_desc":"Cohering is a visual narrative tactic that augments the continuity of a story by building animated transitions between individual parts. Cohering is a common strategy used in film-making to sew up discrete story pieces and create an intuitive viewing experience.",
+    "VNS_num":12
+},
+{"VNS_id":4,
+    "VNS_tag":"excitement",
+    "VNS_color":"#f5c8c0",
+    "VNS_desc":"Ellipsis is used to compact the narratives of a story and deliver the appropriate amount of information to prevent overwhelming the audience. In narratology, subnarratable content, that is, something not worthy of being told as it is too obvious or not interesting, is often left out by the narrator.",
+    "VNS_num":15
+}
 ]

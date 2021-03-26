@@ -81,33 +81,33 @@ export const VNS_scroll_callback = function (panel_node) {
     CARD_DISPLAY_NODE.parentElement.scrollTo(0, 1);
 }
 
-export const Chart_callback = function (btn, btn_queue) {
-    const CARD_DISPLAY_NODE = document.querySelector("#card-display-ex");
+// export const Chart_callback = function (btn, btn_queue) {
+//     const CARD_DISPLAY_NODE = document.querySelector("#card-display-ex");
 
-    // console.log("this is EL_KW_LIST []: ", EL_KW_LIST);
+//     // console.log("this is EL_KW_LIST []: ", EL_KW_LIST);
     
-    let btn_kw_str = btn.querySelector(".chart-btn-text").innerText;
-    console.log("this is btn_kw_str'': ", btn_kw_str);
+//     let btn_kw_str = btn.querySelector(".chart-btn-text").innerText;
+//     console.log("this is btn_kw_str'': ", btn_kw_str);
 
-    if(btn.classList.contains("active")) {
-        if(CH_KW_LIST.indexOf(btn_kw_str) >= 0) {
-            console.log(`**** ${btn_kw_str} cannot been added to array. ****`);
-            return ;
-        }
+//     if(btn.classList.contains("active")) {
+//         if(CH_KW_LIST.indexOf(btn_kw_str) >= 0) {
+//             console.log(`**** ${btn_kw_str} cannot been added to array. ****`);
+//             return ;
+//         }
 
-        btn.classList.remove("active");
-        console.log(`EL button\: \"${btn_kw_str}\" was filtered out.`);
-        CH_KW_LIST.push(btn_kw_str);
-    } else {
-        btn.classList.add("active");
-        console.log(`CH button\: \"${btn_kw_str}\" was reactivated.`);
-        CH_KW_LIST.splice(CH_KW_LIST.indexOf(btn_kw_str), 1);
-    }
+//         btn.classList.remove("active");
+//         console.log(`EL button\: \"${btn_kw_str}\" was filtered out.`);
+//         CH_KW_LIST.push(btn_kw_str);
+//     } else {
+//         btn.classList.add("active");
+//         console.log(`CH button\: \"${btn_kw_str}\" was reactivated.`);
+//         CH_KW_LIST.splice(CH_KW_LIST.indexOf(btn_kw_str), 1);
+//     }
 
-    create_display(homeAPI(CH_KW_LIST, false, true), _CARD_DISPLAY_NODES, CARD_DISPLAY_NODE);
-    // $(CARD_DISPLAY_NODE).animate({scrollTop: 1}, 1);
-    $(CARD_DISPLAY_NODE.parentElement).animate({scrollTop: 1}, 480);
-}
+//     create_display(homeAPI(CH_KW_LIST, false, true), _CARD_DISPLAY_NODES, CARD_DISPLAY_NODE);
+//     // $(CARD_DISPLAY_NODE).animate({scrollTop: 1}, 1);
+//     $(CARD_DISPLAY_NODE.parentElement).animate({scrollTop: 1}, 480);
+// }
 
 
 export const EL_callback = function (btn, btn_queue) {

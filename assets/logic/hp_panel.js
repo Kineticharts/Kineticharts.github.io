@@ -1,5 +1,5 @@
 /* JS for tab "homepage" Visual Narrative Strategies panel & Editorial Layers */
-import { VNS_click_callback, VNS_scroll_callback, Chart_callback, EL_callback } from './hp_middle.js';
+import { VNS_click_callback, VNS_scroll_callback, EL_callback } from './hp_middle.js';
 
 class Homepage_Panel {
 
@@ -21,7 +21,10 @@ class Homepage_Panel {
 
     _createPanel (extraNode_html, extraClass_toA_arr, extraAttribute_toA, methodToBtnName) {
         let panel_node = document.createElement("div");
+        // let panel_chart_title_html = `<h3 class="sidebar-panel-title">Chart Types</h3>`;
+
         let panel_title_html = `<h3 class="sidebar-panel-title">${this._panel_title}</h3>`;
+
         let panel_group_node = document.createElement("div");
 
         panel_node.classList.add("sidebar-panel");
@@ -35,11 +38,14 @@ class Homepage_Panel {
                 let btn_node = this._createButton(item, extraNode_html, extraClass_toA_arr, extraAttribute_toA, methodToBtnName);
                 this._appendTo_queue(btn_node); // append btn to panel queue
                 panel_group_node.appendChild(btn_node);
+
             });
             
             this._bindClickEvents(this._click_event_callback);
             this._bindOtherListenerEvents(this._global_event_callback);
         });
+
+
 
         panel_node.innerHTML = panel_title_html;
         panel_node.appendChild(panel_group_node);
@@ -203,15 +209,17 @@ let VNS_panel = new Homepage_Panel(homepage_vns_url, vns_panel_title, vns_btn_na
         <span class="filter-btn-text">The elements of Visualization</span>
     </a>
   * */
-const homepage_chart_url = "./assets/json/charts_collection.json";
-const chart_panel_title = "Chart Types";
-const chart_btn_name_template = "${Chart_tag}";
-const chart_panel_name = "chart";
-const Chart_panel = new Homepage_Panel(homepage_chart_url, chart_panel_title, 
-    chart_btn_name_template, chart_panel_name, Chart_callback);
+// const homepage_chart_url = "./assets/json/charts_collection.json";
+// const chart_panel_title = "Chart Types";
+// const el_chart_panel_title = "Chart Types";
+// const el_btn_name_template = "${EL_tag}";
+// const el_panel_name = "filter";
+// const Chart_panel = new Homepage_Panel(homepage_chart_url, chart_panel_title, 
+//     chart_btn_name_template, chart_panel_name, Chart_callback);
 
 const homepage_el_url = "./assets/json/el_collection.json";
 const el_panel_title = "Editorial Layers";
+const el_chart_panel_title = "Chart Types";
 const el_btn_name_template = "${EL_tag}";
 const el_panel_name = "filter";
 const EL_panel = new Homepage_Panel(homepage_el_url, el_panel_title, 
@@ -219,8 +227,9 @@ const EL_panel = new Homepage_Panel(homepage_el_url, el_panel_title,
 
 
 
+
 export {
     VNS_panel as VNS_panel,
-    Chart_panel as Chart_panel,
+    // Chart_panel as Chart_panel,
     EL_panel as EL_panel
 };

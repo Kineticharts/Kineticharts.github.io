@@ -97,7 +97,7 @@
 /*左侧导航部分的 editorial layer的icon*/
 .el-Chart-as-a-whole .filter-btn-symbol {
   background-image: url("../icon/panel_whole chart.svg");
-  background-position: 0.5px 2.8px;
+  background-position: 0px 3px;
   background-repeat: no-repeat;
   width: 15px;
   height: 15px;
@@ -134,7 +134,7 @@
 }
 
 
-.chart-Bar-chart .chart-btn-symbol  {
+.el-Bar-chart .filter-btn-symbol  {
   background-image: url("../icon/panel_bar.svg");
   background-position: 1px 1px;
   background-repeat: no-repeat;
@@ -142,14 +142,14 @@
   height: 15px;
 }
 
-.chart-Line-chart .chart-btn-symbol  {
+.el-Line-chart .filter-btn-symbol  {
   background-image: url("../icon/panel_line.svg");
   background-position: 1px 2px;
   background-repeat: no-repeat;
   width: 15px;
   height: 15px;
 }
-.chart-Pie-chart .chart-btn-symbol  {
+.el-Pie-chart .filter-btn-symbol  {
   background-image: url("../icon/panel_pie.svg");
   background-position: 1.5px 1.5px;
   background-repeat: no-repeat;
@@ -417,7 +417,9 @@ footer .footer-text {
 }
 
 .navbar-container .nav-head {
-  padding-top: 0.75rem;
+  /* padding-top: 0.75rem; */
+  padding-top: 1.125rem;
+  /* padding-bottom: 1.125rem; */
   padding-bottom: 1.125rem;
   margin-left: 2rem;
   margin-right: 2rem;
@@ -495,6 +497,7 @@ footer .footer-text {
   align-items: center;
   position: relative;
   /* vertical active sign under tabs */
+  /* line-height: 1.75rem; */
 }
 
 .navbar-ul .navbar-item .navbar-item-bottom {

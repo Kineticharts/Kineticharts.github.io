@@ -821,6 +821,7 @@ footer .footer-text {
   line-height: 1.3rem;
   margin-left: 0.4rem;
   margin-right: 0.8rem;
+  white-space: nowrap;
 /*  margin: 0 auto;*/
 /*  display: flex;
   justify-content:center;*/

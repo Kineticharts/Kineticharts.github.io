@@ -234,7 +234,7 @@ function Homepage_ex_loading() {
 
     chart_child_that_node.insertAdjacentHTML('afterend', '<h3 class="sidebar-panel-title sidebar-panel-title-editorial">Editorial Layers</h3>');
 
-    }, 2);
+    }, 10);
 
 
 }

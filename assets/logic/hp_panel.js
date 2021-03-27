@@ -218,8 +218,7 @@ let VNS_panel = new Homepage_Panel(homepage_vns_url, vns_panel_title, vns_btn_na
 //     chart_btn_name_template, chart_panel_name, Chart_callback);
 
 const homepage_el_url = "./assets/json/el_collection.json";
-const el_panel_title = "Editorial Layers";
-const el_chart_panel_title = "Chart Types";
+const el_panel_title = "Chart Types";
 const el_btn_name_template = "${EL_tag}";
 const el_panel_name = "filter";
 const EL_panel = new Homepage_Panel(homepage_el_url, el_panel_title, 

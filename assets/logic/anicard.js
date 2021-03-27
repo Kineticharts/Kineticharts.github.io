@@ -32,6 +32,10 @@ export const vns_method_to_btn_name = str => {
 window.onload = function () {
     // 定位到tab
     VISIT_PAGE("home", openHomepage_ex);
+
+
+
+    
     // openVideoDataset();
     // openDownloads();
     // openAbout();
@@ -215,22 +219,24 @@ function Homepage_ex_loading() {
     searchBox_EventListener(card_display_node);
     modal_EventListener();
 
+    setTimeout (() => {
     //这里我想通过找到名字为el-Pie-chart的div盒子，然后在这个盒子的后面加上h3标题Chart Types
     console.log ('新增代码');
 
-    var chart_node2 = document.getElementsByClassName("sidebar-panel-group").item(1);
-    console.log(chart_node2);
-    var chart = chart_node2.getElementsByTagName("div");
-    console.log(chart);
-    var chart_node = document.getElementsByClassName("sidebar-btn filter-btn el-Pie-chart active").item(0);
-    console.log (chart_node);//这里的返回值是null 加载不出
-    var chart_node3 = chart_node.insertAdjacentHTML('afterend', `<div><h3 class="sidebar-panel-title">Chart Types</h3></div>`);
-    
-    console.log (chart_node3);
-    
+    var chart_node = document.getElementsByClassName("sidebar-panel-group");
+    console.log(chart_node);
 
-    
-    
+    var chart_child_node = chart_node[1].childNodes;
+    console.log(chart_child_node);
+
+    var chart_child_that_node = chart_child_node[2];
+    console.log(chart_child_that_node);
+
+    chart_child_that_node.insertAdjacentHTML('afterend', '<h3 class="sidebar-panel-title sidebar-panel-title-editorial">Editorial Layers</h3>');
+
+    }, 2);
+
+
 }
 
 /* homepage init related methods */

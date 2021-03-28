@@ -139,8 +139,8 @@ export const EL_callback = function (btn, btn_queue) {
         console.log(`EL button\: \"${btn_kw_str}\" was filtered out.`);
         
         EL_KW_LIST.push(btn_kw_str);
-        console.log(EL_KW_LIST);
-        console.log(EL_Origin_LIST);
+        // console.log(EL_KW_LIST);
+        // console.log(EL_Origin_LIST);
 
         for (let i=0; i<EL_Origin_LIST.length; i++){
             for (let n=0; n<EL_KW_LIST.length; n++){

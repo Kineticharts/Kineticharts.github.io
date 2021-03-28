@@ -7,8 +7,19 @@ const _CARD_DISPLAY_NODES = [];
 const EL_KW_LIST = [];
 const CH_KW_LIST = [];
 
+const EL_Origin_LIST = ["Bar chart"
+    ,"Line chart"
+    ,"Pie chart"
+    ,"Chart as a whole"
+    ,"Chart marks"
+    ,"Chart axes"
+    ,"Embellishment"
+    ,"Camera"];
 
-const EMPTY_ARRAY = function (arr = []) {
+const EL_New_LIST = [];
+
+
+function EMPTY_ARRAY(arr = []) {
     arr.splice(0, arr.length);
 }
 
@@ -23,7 +34,7 @@ export const init_card_display = function (card_display_node = new HTMLElement()
     }
     create_display(homeAPI([search_text], true), [], card_display_node);
 
-    // $(card_display_node).animate({scrollTop: 3}, 1);
+    // $(card_display_node).animate({scrollTop: 3},1);
     card_display_node.parentElement.scrollTo(0, 3);
 }
 
@@ -126,13 +137,27 @@ export const EL_callback = function (btn, btn_queue) {
 
         btn.classList.remove("active");
         console.log(`EL button\: \"${btn_kw_str}\" was filtered out.`);
+        
         EL_KW_LIST.push(btn_kw_str);
+        console.log(EL_KW_LIST);
+        console.log(EL_Origin_LIST);
+
+        for (let i=0; i<EL_Origin_LIST.length; i++){
+            for (let n=0; n<EL_KW_LIST.length; n++){
+                if (EL_Origin_LIST[i] == EL_KW_LIST[n]){
+                    EL_Origin_LIST.splice(i, 1);
+                }
+            }
+        }
+        
+        console.log(EL_Origin_LIST);
+        
+
     } else {
         btn.classList.add("active");
         console.log(`EL button\: \"${btn_kw_str}\" was reactivated.`);
         EL_KW_LIST.splice(EL_KW_LIST.indexOf(btn_kw_str), 1);
     }
-
     create_display(homeAPI(EL_KW_LIST, false, true), _CARD_DISPLAY_NODES, CARD_DISPLAY_NODE);
     // $(CARD_DISPLAY_NODE).animate({scrollTop: 1}, 1);
     $(CARD_DISPLAY_NODE.parentElement).animate({scrollTop: 1}, 480);

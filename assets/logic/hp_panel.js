@@ -194,7 +194,7 @@ Homepage_Panel.prototype.appendTo = function (parentNode, extraNode_html, extraC
     </a>
   * */
 const homepage_vns_url = "./assets/json/vns_collection.json";
-const vns_panel_title = "Affective Expressiveness";
+const vns_panel_title = "Affects";
 const vns_btn_name_template = "${VNS_tag} (${VNS_num})";
 const vns_panel_name = "scrollSpy";
 let VNS_panel = new Homepage_Panel(homepage_vns_url, vns_panel_title, vns_btn_name_template, 

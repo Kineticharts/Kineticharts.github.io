@@ -441,7 +441,7 @@
         "Chart_tag":"Bar chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"imitate the physical appearance of ripple by making a couple of small circles expand around the data points"
+        "how":"let the chart components expand and shrink slowly and rhythmically"
     },
     {
         "card_id":38,
@@ -453,7 +453,7 @@
         "Chart_tag":"Line chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"imitate the physical appearance of ripple by making a couple of small circles expand around the data points"
+        "how":"let the chart components expand and shrink slowly and rhythmically"
     },
     {
         "card_id":39,
@@ -465,7 +465,7 @@
         "Chart_tag":"Pie chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"imitate the physical appearance of ripple by making a couple of small circles expand around the data points"
+        "how":"let the chart components expand and shrink slowly and rhythmically"
     },
     {
         "card_id":40,
@@ -477,7 +477,7 @@
         "Chart_tag":"Bar chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"add soft fluffy light to the contours of the chart components"
+        "how":"imitate the physical appearance of ripple by making a couple of small circles expand around the data points"
     },
     {
         "card_id":41,
@@ -489,7 +489,7 @@
         "Chart_tag":"Line chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"add soft fluffy light to the contours of the chart components"
+        "how":"imitate the physical appearance of ripple by making a couple of small circles expand around the data points"
     },
     {
         "card_id":42,
@@ -501,7 +501,7 @@
         "Chart_tag":"Pie chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"add soft fluffy light to the contours of the chart components"
+        "how":"imitate the physical appearance of ripple by making a couple of small circles expand around the data points"
     },
     {
         "card_id":43,
@@ -513,7 +513,7 @@
         "Chart_tag":"Bar chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"let the chart components expand and shrink slowly and rhythmically"
+        "how":"add soft fluffy light to the contours of the chart components"
     },
     {
         "card_id":44,
@@ -525,7 +525,7 @@
         "Chart_tag":"Line chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"let the chart components expand and shrink slowly and rhythmically"
+        "how":"add soft fluffy light to the contours of the chart components"
     },
     {
         "card_id":45,
@@ -537,7 +537,7 @@
         "Chart_tag":"Pie chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"let the chart components expand and shrink slowly and rhythmically"
+        "how":"add soft fluffy light to the contours of the chart components"
     },
     {
         "card_id":46,

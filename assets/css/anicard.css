@@ -1680,7 +1680,7 @@ footer .footer-text {
 }
 
 .video-deck .story-card-title{
-  margin-bottom: 0;
+  margin: 0 auto;
   line-height: 2rem;
   font-size: 0.875rem;
   font-weight: 600;

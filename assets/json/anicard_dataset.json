@@ -9,7 +9,7 @@
         "Chart_tag":"Bar chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"jump repeatedly up and down on something springy"
+        "how":"Jump repeatedly up and down on something springy"
     },
     {
         "card_id":2,
@@ -21,7 +21,7 @@
         "Chart_tag":"Line chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"jump repeatedly up and down on something springy"
+        "how":"Jump repeatedly up and down on something springy"
     },
     {
         "card_id":3,
@@ -33,7 +33,7 @@
         "Chart_tag":"Pie chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"jump repeatedly up and down on something springy"
+        "how":"Jump repeatedly up and down on something springy"
     },
     {
         "card_id":4,
@@ -45,7 +45,7 @@
         "Chart_tag":"Bar chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"sway from side to side when entering into the scene"
+        "how":"Sway from side to side when entering into the scene"
     },
     {
         "card_id":5,
@@ -57,7 +57,7 @@
         "Chart_tag":"Line chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"sway from side to side when entering into the scene"
+        "how":"Sway from side to side when entering into the scene"
     },
     {
         "card_id":6,
@@ -69,7 +69,7 @@
         "Chart_tag":"Pie chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"sway from side to side when entering into the scene"
+        "how":"Sway from side to side when entering into the scene"
     },
     {
         "card_id":7,
@@ -81,7 +81,7 @@
         "Chart_tag":"Bar chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"leap in from the top-right corner of the scene along a curved trajectory"
+        "how":"Leap in from the top-right corner of the scene along a curved trajectory"
     },
     {
         "card_id":8,
@@ -93,7 +93,7 @@
         "Chart_tag":"Line chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"leap in from the top-right corner of the scene along a curved trajectory"
+        "how":"Leap in from the top-right corner of the scene along a curved trajectory"
     },
     {
         "card_id":9,
@@ -105,7 +105,7 @@
         "Chart_tag":"Pie chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"leap in from the top-right corner of the scene along a curved trajectory"
+        "how":"Leap in from the top-right corner of the scene along a curved trajectory"
     },
     {
         "card_id":10,
@@ -117,7 +117,7 @@
         "Chart_tag":"Bar chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"mimic the motion of cute creatures, such as the unsteady walks of babies and penguins"
+        "how":"Mimic the motion of cute creatures, such as the unsteady walks of babies and penguins"
     },
     {
         "card_id":11,
@@ -129,7 +129,7 @@
         "Chart_tag":"Line chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"mimic the motion of cute creatures, such as the unsteady walks of babies and penguins"
+        "how":"Mimic the motion of cute creatures, such as the unsteady walks of babies and penguins"
     },
     {
         "card_id":12,
@@ -141,7 +141,7 @@
         "Chart_tag":"Pie chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"mimic the motion of cute creatures, such as the unsteady walks of babies and penguins"
+        "how":"Mimic the motion of cute creatures, such as the unsteady walks of babies and penguins"
     },
     {
         "card_id":13,
@@ -153,7 +153,7 @@
         "Chart_tag":"Bar chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"move the body dramatically and rhythmically"
+        "how":"Move the body dramatically and rhythmically"
     },
     {
         "card_id":14,
@@ -165,7 +165,7 @@
         "Chart_tag":"Line chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"move the body dramatically and rhythmically"
+        "how":"Move the body dramatically and rhythmically"
     },
     {
         "card_id":15,
@@ -177,7 +177,7 @@
         "Chart_tag":"Pie chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"move the body dramatically and rhythmically"
+        "how":"Move the body dramatically and rhythmically"
     },
     {
         "card_id":16,
@@ -189,7 +189,7 @@
         "Chart_tag":"Bar chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"let the visual marks run into the chart, hit the axis, and collide with each other"
+        "how":"Let the chart marks run into the chart, hit the axis, and collide with each other"
     },
     {
         "card_id":17,
@@ -201,7 +201,7 @@
         "Chart_tag":"Line chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"let the visual marks run into the chart, hit the axis, and collide with each other"
+        "how":"Let the chart marks run into the chart, hit the axis, and collide with each other"
     },
     {
         "card_id":18,
@@ -213,7 +213,7 @@
         "Chart_tag":"Pie chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"let the visual marks run into the chart, hit the axis, and collide with each other"
+        "how":"Let the chart marks run into the chart, hit the axis, and collide with each other"
     },
     {
         "card_id":19,
@@ -225,7 +225,7 @@
         "Chart_tag":"Bar chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"hide the data first and then reveal the \"gift box\" suddenly by opening the axes"
+        "how":"Hide the chart first and then reveal the \"gift box\" suddenly by opening the axes"
     },
     {
         "card_id":20,
@@ -237,7 +237,7 @@
         "Chart_tag":"Line chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"hide the data first and then reveal the \"gift box\" suddenly by opening the axes"
+        "how":"Hide the chart first and then reveal the \"gift box\" suddenly by opening the axes"
     },
     {
         "card_id":21,
@@ -249,7 +249,7 @@
         "Chart_tag":"Pie chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"hide the data first and then reveal the \"gift box\" suddenly by opening the axes"
+        "how":"Hide the chart first and then reveal the \"gift box\" suddenly by opening the axes"
     },
     {
         "card_id":22,
@@ -261,7 +261,7 @@
         "Chart_tag":"Bar chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"remove the mask of something and disclose it"
+        "how":"Remove the mask of something and disclose it"
     },
     {
         "card_id":23,
@@ -273,7 +273,7 @@
         "Chart_tag":"Line chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"remove the mask of something and disclose it"
+        "how":"Remove the mask of something and disclose it"
     },
     {
         "card_id":24,
@@ -285,7 +285,7 @@
         "Chart_tag":"Pie chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"remove the mask of something and disclose it"
+        "how":"Remove the mask of something and disclose it"
     },
     {
         "card_id":25,
@@ -297,7 +297,7 @@
         "Chart_tag":"Bar chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"cover the chart first with a color block, then separate the block suddenly from its center"
+        "how":"Cover the chart first with a color block, then separate the block suddenly from its center"
     },
     {
         "card_id":26,
@@ -309,7 +309,7 @@
         "Chart_tag":"Line chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"cover the chart first with a color block, then separate the block suddenly from its center"
+        "how":"Cover the chart first with a color block, then separate the block suddenly from its center"
     },
     {
         "card_id":27,
@@ -321,7 +321,7 @@
         "Chart_tag":"Pie chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"cover the chart first with a color block, then separate the block suddenly from its center"
+        "how":"Cover the chart first with a color block, then separate the block suddenly from its center"
     },
     {
         "card_id":28,
@@ -333,7 +333,7 @@
         "Chart_tag":"Bar chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"quickly pull the camera close to a data point after a short pause"
+        "how":"Quickly pull the camera close to a data point after a short pause"
     },
     {
         "card_id":29,
@@ -345,7 +345,7 @@
         "Chart_tag":"Line chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"quickly pull the camera close to a data point after a short pause"
+        "how":"Quickly pull the camera close to a data point after a short pause"
     },
     {
         "card_id":30,
@@ -357,7 +357,7 @@
         "Chart_tag":"Pie chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"quickly pull the camera close to a data point after a short pause"
+        "how":"Quickly pull the camera close to a data point after a short pause"
     },
     {
         "card_id":31,
@@ -369,7 +369,7 @@
         "Chart_tag":"Bar chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"add short blink lines surrounding the surprising data point"
+        "how":"Add short blink lines surrounding the surprising data point"
     },
     {
         "card_id":32,
@@ -381,7 +381,7 @@
         "Chart_tag":"Line chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"add short blink lines surrounding the surprising data point"
+        "how":"Add short blink lines surrounding the surprising data point"
     },
     {
         "card_id":33,
@@ -393,7 +393,7 @@
         "Chart_tag":"Pie chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"add short blink lines surrounding the surprising data point"
+        "how":"Add short blink lines surrounding the surprising data point"
     },
     {
         "card_id":34,
@@ -405,7 +405,7 @@
         "Chart_tag":"Bar chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"mimic the smooth curves in nature, such as flowing waves and curling up smoke"
+        "how":"Mimic the smooth curves in nature, such as flowing waves and curling up smoke"
     },
     {
         "card_id":35,
@@ -417,7 +417,7 @@
         "Chart_tag":"Line chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"mimic the smooth curves in nature, such as flowing waves and curling up smoke"
+        "how":"Mimic the smooth curves in nature, such as flowing waves and curling up smoke"
     },
     {
         "card_id":36,
@@ -429,7 +429,7 @@
         "Chart_tag":"Pie chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"mimic the smooth curves in nature, such as flowing waves and curling up smoke"
+        "how":"Mimic the smooth curves in nature, such as flowing waves and curling up smoke"
     },
     {
         "card_id":37,
@@ -441,7 +441,7 @@
         "Chart_tag":"Bar chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"let the chart components expand and shrink slowly and rhythmically"
+        "how":"Let the chart components expand and shrink slowly and rhythmically"
     },
     {
         "card_id":38,
@@ -453,7 +453,7 @@
         "Chart_tag":"Line chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"let the chart components expand and shrink slowly and rhythmically"
+        "how":"Let the chart components expand and shrink slowly and rhythmically"
     },
     {
         "card_id":39,
@@ -465,7 +465,7 @@
         "Chart_tag":"Pie chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"let the chart components expand and shrink slowly and rhythmically"
+        "how":"Let the chart components expand and shrink slowly and rhythmically"
     },
     {
         "card_id":40,
@@ -477,7 +477,7 @@
         "Chart_tag":"Bar chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"imitate the physical appearance of ripple by making small circles expand around the data points"
+        "how":"Imitate the physical appearance of ripple by making small circles expand around the data points"
     },
     {
         "card_id":41,
@@ -489,7 +489,7 @@
         "Chart_tag":"Line chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"imitate the physical appearance of ripple by making small circles expand around the data points"
+        "how":"Imitate the physical appearance of ripple by making small circles expand around the data points"
     },
     {
         "card_id":42,
@@ -501,7 +501,7 @@
         "Chart_tag":"Pie chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"imitate the physical appearance of ripple by making small circles expand around the data points"
+        "how":"Imitate the physical appearance of ripple by making small circles expand around the data points"
     },
     {
         "card_id":43,
@@ -513,7 +513,7 @@
         "Chart_tag":"Bar chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"add soft fluffy light to the contours of the chart marks"
+        "how":"Add soft fluffy light to the contours of the chart marks"
     },
     {
         "card_id":44,
@@ -525,7 +525,7 @@
         "Chart_tag":"Line chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"add soft fluffy light to the contours of the chart marks"
+        "how":"Add soft fluffy light to the contours of the chart marks"
     },
     {
         "card_id":45,
@@ -537,7 +537,7 @@
         "Chart_tag":"Pie chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"add soft fluffy light to the contours of the chart marks"
+        "how":"Add soft fluffy light to the contours of the chart marks"
     },
     {
         "card_id":46,
@@ -549,7 +549,7 @@
         "Chart_tag":"Bar chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"drop heavily from outside and make the scene shake a little bit because of the heavy force"
+        "how":"Drop heavily from the outside and make the scene shake a little bit because of the heavy force"
     },
     {
         "card_id":47,
@@ -561,7 +561,7 @@
         "Chart_tag":"Line chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"drop heavily from outside and make the scene shake a little bit because of the heavy force"
+        "how":"Drop heavily from the outside and make the scene shake a little bit because of the heavy force"
     },
     {
         "card_id":48,
@@ -573,7 +573,7 @@
         "Chart_tag":"Pie chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"drop heavily from outside and make the scene shake a little bit because of the heavy force"
+        "how":"Drop heavily from the outside and make the scene shake a little bit because of the heavy force"
     },
     {
         "card_id":49,
@@ -585,7 +585,7 @@
         "Chart_tag":"Bar chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"accumulate power first and then burst forth suddenly"
+        "how":"Accumulate power first and then burst forth suddenly"
     },
     {
         "card_id":50,
@@ -597,7 +597,7 @@
         "Chart_tag":"Line chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"accumulate power first and then burst forth suddenly"
+        "how":"Accumulate power first and then burst forth suddenly"
     },
     {
         "card_id":51,
@@ -609,7 +609,7 @@
         "Chart_tag":"Pie chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"accumulate power first and then burst forth suddenly"
+        "how":"Accumulate power first and then burst forth suddenly"
     },
     {
         "card_id":52,
@@ -621,7 +621,7 @@
         "Chart_tag":"Bar chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"move with urgent haste, following the law of inertia"
+        "how":"Move with urgent haste, following the law of inertia"
     },
     {
         "card_id":53,
@@ -633,7 +633,7 @@
         "Chart_tag":"Line chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"move with urgent haste, following the law of inertia"
+        "how":"Move with urgent haste, following the law of inertia"
     },
     {
         "card_id":54,
@@ -645,7 +645,7 @@
         "Chart_tag":"Pie chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"move with urgent haste, following the law of inertia"
+        "how":"Move with urgent haste, following the law of inertia"
     },
     {
         "card_id":55,
@@ -657,7 +657,7 @@
         "Chart_tag":"Bar chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"pull the chart from a distant place to the front at full speed"
+        "how":"Pull the chart from a distant place to the front at full speed"
     },
     {
         "card_id":56,
@@ -669,7 +669,7 @@
         "Chart_tag":"Line chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"pull the chart from a distant place to the front at full speed"
+        "how":"Pull the chart from a distant place to the front at full speed"
     },
     {
         "card_id":57,
@@ -681,7 +681,7 @@
         "Chart_tag":"Pie chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"pull the chart from a distant place to the front at full speed"
+        "how":"Pull the chart from a distant place to the front at full speed"
     },
     {
         "card_id":58,
@@ -693,7 +693,7 @@
         "Chart_tag":"Bar chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"use a close-up shot and let the camera chase the data points from a side view"
+        "how":"Use a close-up shot and let the camera chase the data points from a side view"
     },
     {
         "card_id":59,
@@ -705,7 +705,7 @@
         "Chart_tag":"Line chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"use a close-up shot and let the camera chase the data points from a side view"
+        "how":"Use a close-up shot and let the camera chase the data points from a side view"
     },
     {
         "card_id":60,
@@ -717,5 +717,5 @@
         "Chart_tag":"Pie chart",
         "VNS_ambiguity": 1,
         "AVT_tag": "",
-        "how":"use a close-up shot and let the camera chase the data points from a side view"}
+        "how":"Use a close-up shot and let the camera chase the data points from a side view"}
 ]

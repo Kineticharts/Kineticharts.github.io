@@ -3,19 +3,19 @@
     "VNS_id":0,
     "VNS_tag":"joy",
     "VNS_color":"#f8e9af",
-    "VNS_desc":"Joy is a state when people feel delight and pleasant. In data stories, joyous visual representations are often used to please people and echo topics such as vacations and entertainment. According to our observation, when expressing joy, animators usually use motion to mimic the body language of a joyous person and the overall pace of the motion is fast.",
+    "VNS_desc":"Joy is a state when people feel delight and pleasant. In data stories, joyous visual representations are often used to please people and echo topics such as vacations and entertainment. When expressing joy, animators usually use motion to mimic the body language of a joyous person and the overall pace of the motion is fast.",
     "VNS_num":9
 },
 {"VNS_id":1,
     "VNS_tag":"amusement",
     "VNS_color":"#ea9081",
-    "VNS_desc":"Amusement is a state when people find something comic and humorous. Amusing data stories usually talk about funny topics such as pets, kids, and anecdotes. By analyzing the motion graphics, we found that an important way to create amusement is to anthropomorphize the objects on the canvas, imagine them as human characters, and let them play a comedy.",
+    "VNS_desc":"Amusement is a state when people find something comic and humorous. Amusing data stories usually talk about funny topics such as pets, kids, and anecdotes. An important way to create amusement is to anthropomorphize the objects on the canvas, imagine them as human characters, and let them play a comedy.",
     "VNS_num":9
 },
 {"VNS_id":2,
     "VNS_tag":"surprise",
     "VNS_color":"#efbd9c",
-    "VNS_desc":"Surprise is an affect caused by unexpected events. In data stories, surprise usually happens when storytellers reveal some unusual or highly contrasting data facts to the audience. In data stories, surprise usually happens when storytellers reveal some unusual or highly contrasting data facts to the audience. A sense of contrast is a critical contributor to surprise. Designers usually use contrasting speed or contrasting visuals to elicit surprise.",
+    "VNS_desc":"Surprise is an affect caused by unexpected events. In data stories, surprise usually happens when storytellers reveal some unusual or highly contrasting data facts to the audience. A sense of contrast is a critical contributor to surprise. Designers usually use contrasting speed or contrasting visuals to elicit surprise.",
     "VNS_num":15
 },
 {"VNS_id":3,

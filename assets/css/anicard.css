@@ -2254,6 +2254,16 @@ footer .footer-text {
 }
 
 .footer-margin-new {
-  margin-top: 30px;
+  margin-top: 60px;
   height: 30px;
+}
+
+
+.to-appear {
+  margin-left: 30px;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0.8rem;
+  flex-wrap: wrap;
+  color:dimgrey;
 }

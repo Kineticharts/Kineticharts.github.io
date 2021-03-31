@@ -2152,3 +2152,27 @@ footer .footer-text {
 .modal-footer {
   border-radius: 0 0 0.375rem 0.375rem;
 }
+
+
+
+.gallery-container {
+  margin: 0 auto;
+  /* background-color: #a09daf; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.gallery-container .videoBox {
+  margin: 0 auto;
+  /* background-color: #007DFF; */
+}
+.gallery-container .video-info {
+  margin-left: 2rem;
+}
+.gallery-container .video-info .infoName {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+

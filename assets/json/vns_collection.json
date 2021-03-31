@@ -9,13 +9,13 @@
 {"VNS_id":1,
     "VNS_tag":"amusement",
     "VNS_color":"#ea9081",
-    "VNS_desc":"Amusement is a state when people find something comic and humorous. Amusing data stories usually talk about funny topics such as pets, kids, and anecdotes. An important way to create amusement is to anthropomorphize the objects on the canvas, imagine them as human characters, and let them play a comedy.",
+    "VNS_desc":"Amusement is a state when people find something comic and humorous. Amusing data stories usually talk about funny topics such as pets, kids, and anecdotes. An important way to create amusement is to anthropomorphize the objects on the canvas and animate them like cartoon characters.",
     "VNS_num":9
 },
 {"VNS_id":2,
     "VNS_tag":"surprise",
     "VNS_color":"#efbd9c",
-    "VNS_desc":"Surprise is an affect caused by unexpected events. In data stories, surprise usually happens when storytellers reveal some unusual or highly contrasting data facts to the audience. A sense of contrast is a critical contributor to surprise. Designers usually use contrasting speed or contrasting visuals to elicit surprise.",
+    "VNS_desc":"Surprise is an affect caused by unexpected events. In data stories, surprise usually happens when storytellers reveal some unusual or highly contrasting data facts to the audience. A sense of contrast is a critical contributor to surprise. Designers usually use visual contrast or timing contrast to elicit surprise.",
     "VNS_num":15
 },
 {"VNS_id":3,

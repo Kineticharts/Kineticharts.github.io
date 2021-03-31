@@ -2165,7 +2165,8 @@ footer .footer-text {
 
 .gallery-container .videoBox {
   margin: 0 auto;
-  /* background-color: #007DFF; */
+  width: 600rem;
+  background-color: #007DFF;
 }
 .gallery-container .video-info {
   margin-left: 2rem;
@@ -2175,9 +2176,11 @@ footer .footer-text {
   font-weight: 500;
   margin-bottom: 1rem;
 }
-.gallery-container .video-info .info-affects {
-  font-size: 0.875rem;
+.gallery-container .video-info .info-affects,
+.gallery-container .video-info .info-data-source {
+  font-size: 1rem;
   font-weight: 400;
   margin-bottom: 1rem;
 }
+
 

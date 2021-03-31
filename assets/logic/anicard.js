@@ -60,7 +60,8 @@ window.onload = function () {
             }
             
             if(tab_name === "gallery") {
-                callback = openVideoDataset;
+                // callback = openVideoDataset;
+                callback = openGalleryDataset;
             }
 
             if(tab_name === "about") {
@@ -149,6 +150,25 @@ function openVideoDataset() {
         success: function(res) {
             document.querySelector("main").innerHTML = res;
             videoDataset_loading();
+        }
+    });
+}
+
+function openGalleryDataset() {
+    // 页面呈现loading
+    // document.querySelector("main").innerHTML = "";
+
+    // 界面异步加载
+    $.ajax({
+        // url: "https://jkalan6991.gitee.io/video-explorer/assets/static/videodataset.html",
+        url: "./assets/static/gallery.html",
+        type: "get",
+        contentType: "text/html",
+        dataType: "html",
+        success: function(res) {
+            document.querySelector("main").innerHTML = res;
+            // videoDataset_loading();
+            gallery_loading();
         }
     });
 }
@@ -303,6 +323,32 @@ function videoDataset_loading() {
         });
     });
 }
+function gallery_loading() {
+    const video_deck_node = document.querySelector(".video-deck");
+    const empty_deck_node = document.querySelector("#empty-deck-single");
+
+    // $.getJSON(video_dataset_url, json => {
+
+    //     // console.log("Cards loading ......");
+
+    //     $.each(json, (i, video_item) => {
+    //         // create card object
+    //         let {
+    //             id, video_title, year, video_source, video_link
+    //         } = video_item;
+
+    //         let vd_object = new VideoData_Card(video_item);
+
+    //         // insert card object to the deck
+    //         vd_object.appendTo(video_deck_node, empty_deck_node);
+
+    //         if(i === json.length - 1) {
+    //             // console.log("All cards were loaded on the page.");
+    //         }
+    //     });
+    // });
+}
+
 
 const studymaterial_url = "./assets/json/study_material.json";
 function StudyMaterial_loading() {

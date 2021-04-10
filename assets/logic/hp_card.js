@@ -113,7 +113,7 @@ class Homepage_Card {
         }
         
 
-        console.log (this.parameters["VNS_ambiguity"]);
+        // console.log (this.parameters["VNS_ambiguity"]);
 
         [header_text_node, header_classification_node].forEach((node, i, nodeList) => card_header_node.appendChild(node));
         // [header_text_node, header_symbol_node].forEach((node, i, nodeList) => card_header_node.appendChild(node));
@@ -164,8 +164,11 @@ class Homepage_Card {
     * */
     _createCard_frontImg () {
         let card_frontImg_node = document.createElement("div");
+        var num = this.parameters["card_id"];
+        console.log (this.parameters["card_id"]);
+        var newnum = num%3;
         let front_gif_html = `<img class="card-img front-gif" src="./assets/hp_front_gif/front_${this.parameters["card_id"]}.gif" alt="./assets/image/fail_loading.svg">`;  // 缺少正面gif
-        let front_preview_html = `<img class="card-img front-preview" src="./assets/hp_front_preview/front_${this.parameters["card_id"]}.png">`  // 缺少正面预览png
+        let front_preview_html = `<img class="card-img front-preview" src="./assets/hp_front_preview/front_${newnum}.png">`  // 缺少正面预览png
 
         card_frontImg_node.classList.add("card-frontImg");
         card_frontImg_node.innerHTML = front_gif_html + front_preview_html;

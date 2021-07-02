@@ -45,7 +45,7 @@
         "Chart_tag":"Bar chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"Sway from side to side when entering into the scene"
+        "how":"Sway from side to side when entering the scene"
     },
     {
         "card_id":5,
@@ -57,7 +57,7 @@
         "Chart_tag":"Line chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"Sway from side to side when entering into the scene"
+        "how":"Sway from side to side when entering the scene"
     },
     {
         "card_id":6,
@@ -69,7 +69,7 @@
         "Chart_tag":"Pie chart",
         "VNS_ambiguity":0,
         "AVT_tag":"",
-        "how":"Sway from side to side when entering into the scene"
+        "how":"Sway from side to side when entering the scene"
     },
     {
         "card_id":7,

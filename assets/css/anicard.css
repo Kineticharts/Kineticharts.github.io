@@ -486,7 +486,7 @@ footer .footer-text {
 
 @media (min-width: 576px) {
   .navbar-ul li + li {
-    margin-left: 6rem;
+    margin-left: 5rem;
   }
 }
 
@@ -1766,10 +1766,12 @@ footer .footer-text {
   }
 }
 
+/* about页面中的一个小插图 */
 .about-part-img {
-  margin-top: 0.5rem;
-  margin: 0 auto 0.5rem;
-  max-width: 20rem;
+  margin-top: 0.8rem;
+  margin: 0.5rem auto 0.8rem;
+  max-width: 10rem;
+
 }
 
 .about-para-text,
@@ -1912,6 +1914,9 @@ footer .footer-text {
   }
 }
 
+
+
+/* 头像卡片部分 */
 .album {
   display: flex;
   flex-flow: row wrap;
@@ -1921,9 +1926,9 @@ footer .footer-text {
 }
 
 .album-card {
-  -ms-flex: 0 0 15%;
-  flex: 0 0 15%;
-  max-width: 10rem;
+  -ms-flex: 0 0 18.2%;
+  flex: 0 0 18.2%;
+  max-width: 20rem;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   margin-bottom: 1rem;

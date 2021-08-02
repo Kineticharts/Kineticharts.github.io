@@ -353,11 +353,11 @@ body,
   overflow: hidden;
 }
 
-/* footer */
+/* footer copyright部分 */
 footer {
   flex: 0 0 auto;
   padding: 0.625rem 0;
-  background-color: #FFF6E6;
+  background-color: #FEE9E3;
   min-height: 2.75rem;
 }
 
@@ -403,6 +403,7 @@ footer .footer-text {
 @media (min-width: 852.5px) {
   .navbar-container {
     background: transparent linear-gradient(90deg, #F9CED9 0%, #FFEFE6 100%);
+    /* background-image: url(../image/banner.png), linear-gradient(90deg, #F9CED9 0%, #FFEFE6 100%); */
     /*background-image: url(../image/banner.png), linear-gradient(90deg, #FFF6E6 0%, #FEF6E7 100%);*/
     display: flex;
     flex-direction: row !important;
@@ -428,8 +429,8 @@ footer .footer-text {
 
 @media (max-width: 852.5px) {
   .navbar-container .nav-head {
-    /*background: transparent linear-gradient(90deg, #F9CED9 0%, #FFEFE6 100%);*/
-    /*background-image: url(../image/banner-mobile.svg);*/
+    background: transparent linear-gradient(90deg, #F9CED9 0%, #FFEFE6 100%);
+    /* background-image: url(../image/banner-mobile.svg); */
     background-position: bottom right;
     background-size: auto 100%;
     background-repeat: no-repeat;

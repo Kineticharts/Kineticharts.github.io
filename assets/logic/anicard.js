@@ -207,6 +207,7 @@ function openAbout() {
         success: function(res) {
             document.querySelector("main").innerHTML = res;
             $("#official-side").tooltip({ title: "learn more about iDVx Lab" });
+            downloads_loading();
         }
     });
 }
